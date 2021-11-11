@@ -1,0 +1,19 @@
+//suma dintre doua numere intregi
+
+#include <iostream>
+using namespace std;
+
+
+int main(){
+
+int primulNumar, alDoileaNumar, suma;
+
+cout<<"Introduceti cele 2 numere: ";
+cin>>primulNumar>>alDoileaNumar;
+//calculez suma
+suma=primulNumar+alDoileaNumar;
+
+cout<<primulNumar<<" + "<<alDoileaNumar<<" = "<<suma;
+
+return 0;
+}

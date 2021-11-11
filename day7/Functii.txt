@@ -1,0 +1,77 @@
+#include <iostream>
+using namespace std;
+
+void afisareTextDefault() {
+    cout << "Salut! Numele meu este cipri " << endl;
+
+}
+
+void afisareTextCuParametrii(string nume) {
+    cout << "Salut ! Numele meu este " << nume << "!" << endl;
+}
+
+void afisareTextCuParametruDefault(string nume="Tudorel") {
+    cout << "Salut ! Numele meu este " << nume << "!" << endl;
+}
+void afisareTextCuNParametrii(string nume,int varsta) {
+    cout << "Salut ! Numele meu este " << nume << "!" << "si am" << varsta << "ani" << endl;
+}
+
+int adunare(int a, int b) {
+    return a + b;
+}
+
+float adunare(float a, float b) {
+    return a + b;
+}
+
+float medie(int note[20],int nrNote) {
+
+    float medie=0;
+    for (int i = 0; i < nrNote; i++) {
+        medie = note[i];
+    }
+    return medie / nrNote;
+}
+
+
+void interschimbare(int a, int b) {
+    int c = a;
+    a = b;
+    b = c;
+
+    cout << "a din functie " << a << endl;
+    cout << "b din funtie " << b << endl;
+}
+
+int main() {
+    /*afisareTextDefault();
+    afisareTextCuParametrii("Ion");
+    afisareTextCuParametrii("a");
+    afisareTextCuParametrii("b");
+    afisareTextCuParametruDefault();
+    afisareTextCuParametruDefault("Tavi");
+    afisareTextCuNParametrii("Edi", 16);
+    int suma = adunare(10, 50);
+    cout << "Suma este " << suma << endl;
+
+    int a = 10, b = 20;
+    cout << "a= " << a<<endl;
+    cout << "b= " << b<<endl;
+    interschimbare(a, b);
+    cout << "Dupa interschimbare: " << endl;
+    cout << "a= " << b << endl;
+    cout << "b= " << a << endl;
+
+    float suma2 = adunare(10.4f, 50.3f);
+    cout << "Suma este " << suma2 << endl;*/
+    int note[] = { 2,5,7,9 };
+    int nrNote = 4;
+    medie(note,nrNote);
+    cout << "Media este de: "<< medie(note,nrNote) << endl;
+
+
+    return 0;
+
+
+}

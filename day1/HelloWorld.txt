@@ -1,0 +1,8 @@
+//afisare la consola a unui text
+
+#include <iostream>
+using namespace std;
+int main(){
+//std::cout  << "Hello world!";  
+cout  << "Salut! Sunt Gabi"; 
+}

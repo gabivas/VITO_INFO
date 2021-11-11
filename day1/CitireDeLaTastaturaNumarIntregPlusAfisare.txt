@@ -1,0 +1,17 @@
+//afisare la consola a unui numar citit de la tastatura
+
+#include <iostream>
+using namespace std;
+
+
+int main(){
+
+int numar;
+cout<<"Introdu un numar intreg:";
+cin>>numar;
+
+cout<<"Ai introdus de la tastatura cifra " <<numar;
+
+
+return 0;
+}
