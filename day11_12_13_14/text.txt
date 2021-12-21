@@ -1,0 +1,2 @@
+Does C++ support 'finally' blocks? (And what's this 'RAII' I keep hearing about?)
+Test
